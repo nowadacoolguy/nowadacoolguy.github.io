@@ -175,3 +175,23 @@ footer {
     margin-top: 40px;
 }
 
+/* Make the Markdown table easy to read */
+
+table {
+    background-color: white;
+    color: black;
+}
+
+table th {
+    background-color: #4b0082;
+    color: white;
+}
+
+table td {
+    color: black;
+    background-color: white;
+}
+
+table tr:nth-child(even) td {
+    background-color: #eeeeee;
+}
