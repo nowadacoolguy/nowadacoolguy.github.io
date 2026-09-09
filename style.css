@@ -91,7 +91,8 @@ li {
 /* Table */
 
 table {
-    width: auto;
+    width: 540px;
+    table-layout: fixed;
     border-collapse: collapse;
     margin-top: 15px;
 }
