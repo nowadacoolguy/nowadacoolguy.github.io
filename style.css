@@ -1,1 +1,177 @@
+/* Page background and text */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #100d1a;
+    color: #eeeeee;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+header {
+    background: linear-gradient(135deg, #4b0082, #1e3a8a);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #08070d;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: #c084fc;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+
+/* Main content */
+
+main {
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+
+/* Sections */
+
+section {
+    background-color: #1b1728;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: 1px solid #352d4d;
+}
+
+
+/* Headings */
+
+h2 {
+    color: #c084fc;
+    border-bottom: 2px solid #4c1d95;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #60a5fa;
+}
+
+
+/* Lists */
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #4b0082;
+    color: white;
+}
+
+td,
+th {
+    border: 1px solid #51456b;
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #252038;
+}
+
+
+/* Gaming image */
+
+.gaming-image {
+    width: 100%;
+    max-width: 850px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+.image-note {
+    text-align: center;
+    color: #aaaaaa;
+    font-style: italic;
+}
+
+
+/* Embedded video */
+
+iframe {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+
+/* Highlighted section */
+
+.highlight {
+    background-color: #24143d;
+    border: 2px solid #8b5cf6;
+    text-align: center;
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+    background-color: #7c3aed;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #2563eb;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #08070d;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
 
